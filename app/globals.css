@@ -4,3 +4,9 @@ body {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+img{
+  display: block;
+  max-width: 100%;
+}
