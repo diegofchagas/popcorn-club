@@ -32,7 +32,7 @@ export function Header() {
         <Link href="/">
           <Image
             className="rounded-md"
-            src="/logo-2.png"
+            src="/pop-corn-club.png"
             width={150}
             height={90}
             alt="logo"
