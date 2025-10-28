@@ -1,0 +1,29 @@
+.swiper {
+  padding: 10px;
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0;
+  color: red !important;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+}
+
+.mySwiper:hover .swiper-button-next,
+.mySwiper:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: rgb(239, 3, 7) !important;
+  transform: scale(1.2);
+}
