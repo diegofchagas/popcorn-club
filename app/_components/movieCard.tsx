@@ -4,12 +4,19 @@ import { motion } from 'motion/react';
 import Image from "next/image";
 import { useState } from "react";
 
+export type MovieCardProps ={
+  movie: {
+  poster: string;
+  title: string;
+  rating: string;
+  year: string;
+}
+}
 
 
-export default function MovieCard() {
+export default function MovieCard({ movie }: MovieCardProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const numberOne = 1
-
   return (
     <motion.div
       className="flex-shrink-0 w-44 md:w-56 cursor-pointer group"
@@ -18,7 +25,6 @@ export default function MovieCard() {
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: numberOne * 0.05 }}
       whileHover={{ scale: 1.05, zIndex: 10 }}
-      // onClick={onClick}
     >
       <div className="relative aspect-[2/3] rounded-lg overflow-hidden bg-gray-800">
         {/* Loading skeleton */}
@@ -30,10 +36,8 @@ export default function MovieCard() {
           className={`w-full h-full object-cover transition-opacity duration-300 ${
             imageLoaded ? "opacity-100" : "opacity-0"
           }`}
-          src={
-            "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200"
-          }
-          alt="filme"
+          src={movie.poster}
+          alt={movie.title}
           width={400}
           height={400}
           onLoad={() => setImageLoaded(true)}
@@ -59,18 +63,21 @@ export default function MovieCard() {
 
           <div className="flex justify-between mt-2">
             <h3 className="text-sm md:text-base line-clamp-2 drop-shadow-lg">
-              Homen Aranha
+              {movie.title}
             </h3>
-            <span className="text-sm text-gray-300">2024</span>
+            <span className="text-sm text-gray-300">{movie.year}</span>
           </div>
         </motion.div>
 
         {/* Rating Badge (always visible) */}
         <div className="absolute top-2 right-2 bg-black/70 backdrop-blur-sm px-2 py-1 rounded-md flex items-center gap-1">
           <Star className="w-3 h-3 fill-yellow-500 text-yellow-500" />
-          <span className="text-xs">8.0</span>
+          <span className="text-xs">{movie.rating}</span>
         </div>
       </div>
+    
     </motion.div>
+
   );
+    
 } 

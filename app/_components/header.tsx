@@ -5,7 +5,6 @@ import { motion } from "motion/react";
 import { Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { div } from "motion/react-client";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -22,7 +21,7 @@ export function Header() {
 
   const navItems = [
     { name: "Início", href: "/" },
-    { name: "Filmes", href: "/filmes" },
+    { name: "Filmes", href: "/movie" },
     { name: "Series", href: "/series" },
   ];
   return (

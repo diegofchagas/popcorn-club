@@ -1,12 +1,22 @@
 import { Info, Play, Star } from "lucide-react";
 import React from "react";
 
-export function MovieBanner() {
+type MovieBannerProps = {
+  title: string;
+  poster: string;
+  year: string;
+  rating: string;
+  genres: string[];
+  description?: string;
+}
+
+export function MovieBanner({ title,poster, year, rating, genres, description }: MovieBannerProps) {
   return (
-    <div className="relative h-[85vh] md:h-[95vh] w-full overflow-hidden">
+    <div className="relative h-[85vh] md:h-[65vh] w-full overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1920&q=80"
+          src={poster}
+          //src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1920&q=80"
           alt="film"
           className="w-full h-full object-cover"
         />
@@ -20,20 +30,18 @@ export function MovieBanner() {
           <ul className="flex items-center gap-2">
             <li className="flex items-center gap-1 bg-yellow-500/20 backdrop-blur-sm px-3 py-1 rounded-full border border-yellow-500/50">
               {" "}
-              <Star className="w-4 h-4 fill-yellow-500 text-yellow-500" /> 8.7
+              <Star className="w-4 h-4 fill-yellow-500 text-yellow-500" /> {rating}
             </li>
-            <li className="text-gray-300">2024</li>
-            <li className="text-gray-400 text-sm">Ficção Cientifica</li>
-            <li className="text-gray-400 text-sm">Aventura</li>
+            <li className="text-gray-300">{year}</li>
+            { genres && genres.map((genre) =><li className="text-gray-400 text-sm" key={genre}>{genre}</li>) }
           </ul>
 
           <div className="mt-3">
             <h1 className="text-4xl md:text-6xl lg:text-7xl mb-4 drop-shadow-lg">
-              Batman
+              {title}
             </h1>
             <p className="text-base md:text-lg text-gray-200 leading-relaxed max-w-2xl drop-shadow-lg">
-              {" "}
-              Eu sou o batman
+            { description ? <>{description}</> : "Sem descrição disponível."}
             </p>
           </div>
 
