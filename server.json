@@ -1,263 +1,361 @@
 {
-  "movie": [
+  "data": [
     {
-      "id": "1",
-      "title": "Homem aranha",
-      "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
-      "rating": "8.4",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ação", "Ficção Científica"]
-    },
-    {
-      "id": "2",
-      "title": "Duna: Parte 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.8",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ficção Científica", "Aventura", "Drama"]
-    },
-    {
-      "id": "3",
-      "title": "Superman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.8",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ação", "Aventura", "Ficção Científica"]
-    },
-    {
-      "id": "4",
-      "title": "Divertida Mente 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.3",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Animação", "Aventura", "Comédia"]
-    },
-    {
-      "id": "5",
-      "title": "Deadpool & Wolverine",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.9",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ação", "Comédia", "Ficção Científica"]
-    },
-    {
-      "id": "6",
-      "title": "Planeta dos Macacos: O Reinado",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDRlZTc3YTItOTk3Yi00NmU4LWFiOGUtNjgwMDZjNjIzNTU1XkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.2",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ficção Científica", "Ação", "Aventura"]
-    },
-    {
-      "id": "7",
-      "title": "Gladiador II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjY5M2U0NTQtNTg5MC00MDQ2LWIyNjYtNzYyMzZkMDFhZGNmXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.5",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Drama", "Ação", "Histórico"]
-    },
-    {
-      "id": "8",
-      "title": "Vingadores Ultimato",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
-      "rating": "6.9",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Ficção Científica", "Pós-Apocalíptico", "Ação"]
-    },
-    {
-      "id": "9",
-      "title": "The Batman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.7",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ficção Científica", "Thriller", "Drama"]
-    },
-    {
-      "id": "10",
-      "title": "Busca Implacável",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTAxNTY2NjMtYjk5Yy00Nzg4LTkyMmItYmMzMDM2OWQ1ZGQ3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.5",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ação", "Suspense", "Drama", "Mistério", "Ficção"]
-    },
-    {
-      "id": "11",
-      "title": "O Senhor dos Anéis",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.6",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Animação", "Fantasia", "Aventura"]
-    },
-    {
-      "id": "12",
-      "title": "Sonic 3: O Filme",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjZjNjE5NDEtOWJjYS00Mjk2LWI1ZDYtOWI1ZWI3MzRjM2UzXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.0",
-      "type": "movie",
-      "year": "2024",
-      "genres": ["Aventura", "Animação", "Comédia"]
-    },
-    {
-      "id": "13",
-      "title": "Missão: Impossível - Acerto de Contas Parte 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2U4OTdmM2QtZTkxYy00ZmQyLTg2N2UtMDdmMGJmNDhlZDU1XkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.1",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ação", "Aventura", "Thriller"]
-    },
-    {
-      "id": "14",
-      "title": "Quarteto Fantástico: Primeiros Passos",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.5",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ação", "Aventura", "Ficção Científica"]
-    },
-    {
-      "id": "15",
-      "title": "Karate Kid: Lendas",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2MwYTlkY2MtNmUzNy00MTljLThjNDAtZGUzNzMxMzcxNzM5XkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.1",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ação", "Drama", "Esporte"]
-    },
-    {
-      "id": "16",
-      "title": "O Agente Secreto",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODliMTdhOTYtYThjMy00OWVhLWFlMjEtYzZlMDhkMjczYjc5XkEyXkFqcGc@._V1_.jpg",
-      "rating": "6.9",
-      "type": "movie",
-      "year": "2025",
-      "genres": ["Ação", "Espionagem", "Thriller"]
-    }
-  ],
-  "series": [
-    {
-      "id": "17",
-      "title": "Fallout",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzk4MWZkMDgtN2UwZC00ZjVlLWE1M2ItYjY4NWEwN2YwOGYxXkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.7",
-      "type": "series",
-      "year": "2024",
-      "genres": ["Ficção Científica", "Ação", "Aventura"]
-    },
-    {
-      "id": "18",
-      "title": "A Casa do Dragão",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.4",
-      "type": "series",
-      "year": "2024",
-      "genres": ["Fantasia", "Drama", "Aventura"]
-    },
-    {
-      "id": "19",
-      "title": "Acima de Qualquer Suspeita",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDk1MWM3NmItZmNjZS00ZmZkLTk1ZDAtZjFiN2FiZjczNmZhXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.7",
-      "type": "series",
-      "year": "2024",
-      "genres": ["Policial", "Drama", "Suspense"]
-    },
-    {
-      "id": "18",
-      "title": "The Umbrella Academy",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzlmMmIxODItYzBjNC00YjMwLWIwOTAtNzVlMTBlNTNkMjZjXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.9",
-      "type": "series",
-      "year": "2024",
-      "genres": ["Ação", "Aventura", "Comédia"]
-    },
-    {
-      "id": "19",
-      "title": "Cobra Kai",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.5",
-      "type": "series",
-      "year": "2025",
-      "genres": ["Ação", "Comédia", "Drama"]
-    },
-    {
-      "id": "20",
-      "title": "Casa de Davi",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWExMTJiMGQtYTA3OC00ZGM0LTg5MGQtZjMwM2VlNTU3YjRhXkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.3",
-      "type": "series",
-      "year": "2025",
-      "genres": ["Drama", "Histórico", "Bíblico"]
-    },
-    {
-      "id": "21",
-      "title": "The Rookie",
-      "poster": "https://images.unsplash.com/photo-1579783900882-c0d3ce7bcfae?w=1200",
-      "rating": "7.1",
-      "type": "series",
-      "year": "2025",
-      "genres": ["Drama Policial", "Investigação Policial", "Crime", "Ação"]
-    },
-    {
-      "id": "22",
-      "title": "Negociador",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmNjZmU2YWYtYTE1Yi00ZWVkLThmMjAtOGE2OWJjOWYzMjg4XkEyXkFqcGc@._V1_.jpg",
-      "rating": "6.4",
-      "type": "series",
-      "year": "2023",
-      "genres": ["Drama Policial", "Investigação Policial", "Crime", "Ação"]
-    },
-    {
-      "id": "23",
-      "title": "Suits",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmE4MmNjZjUtNTEyNy00NTZiLWE4NTktYjM2NjBhYzQ1N2IzXkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.4",
-      "type": "series",
-      "year": "2011",
-      "genres": ["Drama Jurídico", "Drama no trabalho", "Ficção", "Comédia"]
-    },
-    {
-      "id": "24",
-      "title": "Stranger Things",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "8.6",
-      "type": "series",
-      "year": "2016",
-      "genres": [
-        "Èpico de ficção científica",
-        "Fantasia épica",
-        "Fantasia sombria",
-        "Comédia"
-      ]
-    },
+      "movie": [
+        {
+          "id": "1",
+          "title": "Homem aranha",
+          "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
+          "rating": "8.4",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ação", "Ficção Científica"]
+        },
+        {
+          "id": "2",
+          "title": "Duna: Parte 2",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.8",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ficção Científica", "Aventura", "Drama"]
+        },
+        {
+          "id": "3",
+          "title": "Superman",
+          "poster": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.8",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ação", "Aventura", "Ficção Científica"]
+        },
+        {
+          "id": "4",
+          "title": "Divertida Mente 2",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.3",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Animação", "Aventura", "Comédia"]
+        },
+        {
+          "id": "5",
+          "title": "Deadpool & Wolverine",
+          "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.9",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ação", "Comédia", "Ficção Científica"]
+        },
+        {
+          "id": "6",
+          "title": "Planeta dos Macacos: O Reinado",
+          "poster": "https://m.media-amazon.com/images/M/MV5BZDRlZTc3YTItOTk3Yi00NmU4LWFiOGUtNjgwMDZjNjIzNTU1XkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.2",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ficção Científica", "Ação", "Aventura"]
+        },
+        {
+          "id": "7",
+          "title": "Gladiador II",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYjY5M2U0NTQtNTg5MC00MDQ2LWIyNjYtNzYyMzZkMDFhZGNmXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.5",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Drama", "Ação", "Histórico"]
+        },
+        {
+          "id": "8",
+          "title": "Vingadores Ultimato",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+          "rating": "6.9",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ficção Científica", "Pós-Apocalíptico", "Ação"]
+        },
+        {
+          "id": "9",
+          "title": "The Batman",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.7",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ficção Científica", "Thriller", "Drama"]
+        },
+        {
+          "id": "10",
+          "title": "Busca Implacável",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYTAxNTY2NjMtYjk5Yy00Nzg4LTkyMmItYmMzMDM2OWQ1ZGQ3XkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.5",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ação", "Suspense", "Drama", "Mistério", "Ficção"]
+        },
+        {
+          "id": "11",
+          "title": "O Senhor dos Anéis",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.6",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Animação", "Fantasia", "Aventura"]
+        },
+        {
+          "id": "12",
+          "title": "Sonic 3: O Filme",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMjZjNjE5NDEtOWJjYS00Mjk2LWI1ZDYtOWI1ZWI3MzRjM2UzXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.0",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Aventura", "Animação", "Comédia"]
+        },
+        {
+          "id": "13",
+          "title": "Missão: Impossível - Acerto de Contas Parte 2",
+          "poster": "https://m.media-amazon.com/images/M/MV5BN2U4OTdmM2QtZTkxYy00ZmQyLTg2N2UtMDdmMGJmNDhlZDU1XkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.1",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ação", "Aventura", "Thriller"]
+        },
+        {
+          "id": "14",
+          "title": "Quarteto Fantástico: Primeiros Passos",
+          "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.5",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ação", "Aventura", "Ficção Científica"]
+        },
+        {
+          "id": "15",
+          "title": "Karate Kid: Lendas",
+          "poster": "https://m.media-amazon.com/images/M/MV5BM2MwYTlkY2MtNmUzNy00MTljLThjNDAtZGUzNzMxMzcxNzM5XkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.1",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ação", "Drama", "Esporte"]
+        },
+        {
+          "id": "16",
+          "title": "O Agente Secreto",
+          "poster": "https://m.media-amazon.com/images/M/MV5BODliMTdhOTYtYThjMy00OWVhLWFlMjEtYzZlMDhkMjczYjc5XkEyXkFqcGc@._V1_.jpg",
+          "rating": "6.9",
+          "type": "movie",
+          "year": "2025",
+          "genres": ["Ação", "Espionagem", "Thriller"]
+        }
+      ],
+      "series": [
+        {
+          "id": "17",
+          "title": "Fallout",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYzk4MWZkMDgtN2UwZC00ZjVlLWE1M2ItYjY4NWEwN2YwOGYxXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.7",
+          "type": "series",
+          "year": "2024",
+          "genres": ["Ficção Científica", "Ação", "Aventura"]
+        },
+        {
+          "id": "18",
+          "title": "A Casa do Dragão",
+          "poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.4",
+          "type": "series",
+          "year": "2024",
+          "genres": ["Fantasia", "Drama", "Aventura"]
+        },
+        {
+          "id": "19",
+          "title": "Acima de Qualquer Suspeita",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNDk1MWM3NmItZmNjZS00ZmZkLTk1ZDAtZjFiN2FiZjczNmZhXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.7",
+          "type": "series",
+          "year": "2024",
+          "genres": ["Policial", "Drama", "Suspense"]
+        },
+        {
+          "id": "18",
+          "title": "The Umbrella Academy",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMzlmMmIxODItYzBjNC00YjMwLWIwOTAtNzVlMTBlNTNkMjZjXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.9",
+          "type": "series",
+          "year": "2024",
+          "genres": ["Ação", "Aventura", "Comédia"]
+        },
+        {
+          "id": "19",
+          "title": "Cobra Kai",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.5",
+          "type": "series",
+          "year": "2025",
+          "genres": ["Ação", "Comédia", "Drama"]
+        },
+        {
+          "id": "20",
+          "title": "Casa de Davi",
+          "poster": "https://m.media-amazon.com/images/M/MV5BZWExMTJiMGQtYTA3OC00ZGM0LTg5MGQtZjMwM2VlNTU3YjRhXkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.3",
+          "type": "series",
+          "year": "2025",
+          "genres": ["Drama", "Histórico", "Bíblico"]
+        },
+        {
+          "id": "21",
+          "title": "The Rookie",
+          "poster": "https://images.unsplash.com/photo-1579783900882-c0d3ce7bcfae?w=1200",
+          "rating": "7.1",
+          "type": "series",
+          "year": "2025",
+          "genres": ["Drama Policial", "Investigação Policial", "Crime", "Ação"]
+        },
+        {
+          "id": "22",
+          "title": "Negociador",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNmNjZmU2YWYtYTE1Yi00ZWVkLThmMjAtOGE2OWJjOWYzMjg4XkEyXkFqcGc@._V1_.jpg",
+          "rating": "6.4",
+          "type": "series",
+          "year": "2023",
+          "genres": ["Drama Policial", "Investigação Policial", "Crime", "Ação"]
+        },
+        {
+          "id": "23",
+          "title": "Suits",
+          "poster": "https://m.media-amazon.com/images/M/MV5BYmE4MmNjZjUtNTEyNy00NTZiLWE4NTktYjM2NjBhYzQ1N2IzXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.4",
+          "type": "series",
+          "year": "2011",
+          "genres": ["Drama Jurídico", "Drama no trabalho", "Ficção", "Comédia"]
+        },
+        {
+          "id": "24",
+          "title": "Stranger Things",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.6",
+          "type": "series",
+          "year": "2016",
+          "genres": [
+            "Èpico de ficção científica",
+            "Fantasia épica",
+            "Fantasia sombria",
+            "Comédia"
+          ]
+        },
+        {
+          "id": "25",
+          "title": "The BlackList",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNDk4MGU4NTItNDMyMC00NjQ0LWFlMWUtYzJlMTM1M2M2ZTU3XkEyXkFqcGc@._V1_.jpg",
+          "rating": "7.9",
+          "type": "series",
+          "year": "2013",
+          "genres": ["Suspense", "Mistério", "Crime", "Drama"]
+        },
+        {
+          "id": "26",
+          "title": "Prison Break: Em Busca da Verdade",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NTkwNzAxOF5BMl5BanBnXkFtZTcwMjM1NjI5MQ@@._V1_.jpg",
+          "rating": "8.3",
+          "type": "series",
+          "year": "2005",
+          "genres": [
+            "Drama Prisional",
+            "Thriller de conspiração",
+            "Ação",
+            "Crime",
+            "Drama",
+            "Mistério",
+            "Suspense"
+          ]
+        }
+      ],
+      "movieCategories": [
+        {
+          "title": "Em alta",
+          "movies": [
+        {
+        "id": "1",
+        "title": "Homem aranha",
+        "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
+        "rating": "8.4",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ação", "Ficção Científica"]
+      },
       {
-      "id": "25",
-      "title": "The BlackList",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDk4MGU4NTItNDMyMC00NjQ0LWFlMWUtYzJlMTM1M2M2ZTU3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "7.9",
-      "type": "series",
-      "year": "2013",
-      "genres": ["Suspense", "Mistério","Crime", "Drama"]
-    },
-    {
-      "id": "26",
-      "title": "Prison Break: Em Busca da Verdade",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NTkwNzAxOF5BMl5BanBnXkFtZTcwMjM1NjI5MQ@@._V1_.jpg",
-      "rating": "8.3",
-      "type": "series",
-      "year": "2005",
-      "genres": ["Drama Prisional", "Thriller de conspiração","Ação", "Crime", "Drama", "Mistério", "Suspense"]
+        "id": "2",
+        "title": "Duna: Parte 2",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+        "rating": "8.8",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ficção Científica", "Aventura", "Drama"]
+      }
+          ]
+        },
+        {
+          "title": "Ação e Aventura",
+          "movies": [{
+        "id": "1",
+        "title": "Homem aranha",
+        "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
+        "rating": "8.4",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ação", "Ficção Científica"]
+      },
+      {
+        "id": "2",
+        "title": "Duna: Parte 2",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+        "rating": "8.8",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ficção Científica", "Aventura", "Drama"]
+      }]
+        },
+        {
+          "title": "Ficção Científica",
+          "movies": [{
+        "id": "1",
+        "title": "Homem aranha",
+        "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
+        "rating": "8.4",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ação", "Ficção Científica"]
+      },
+      {
+        "id": "2",
+        "title": "Duna: Parte 2",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+        "rating": "8.8",
+        "type": "movie",
+        "year": "2024",
+        "genres": ["Ficção Científica", "Aventura", "Drama"]
+      }]
+        }
+      ],
+      "featuredMovie": [
+        {
+          "id": "1",
+          "title": "Homem aranha",
+          "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=1200",
+          "rating": "8.4",
+          "year": "2024",
+          "genres": ["Ação", "Ficção Científica"]
+        },
+        {
+          "id": "2",
+          "title": "Duna: Parte 2",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+          "rating": "8.8",
+          "type": "movie",
+          "year": "2024",
+          "genres": ["Ficção Científica", "Aventura", "Drama"]
+        }
+      ]
     }
   ]
 }
